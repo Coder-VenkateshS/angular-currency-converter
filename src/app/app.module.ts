@@ -7,7 +7,7 @@ import { ConverterPipe } from "./converter.pipe";
 
 @NgModule({
   declarations: [AppComponent, ConverterPipe, ConvertPipe],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
 })
