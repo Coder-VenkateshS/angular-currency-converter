@@ -4,7 +4,7 @@
   <!-- <p>{{currencyVal}}</p> -->
   <input type='text' value={{currentVal}} #inp >
 
-  <select class='form-control' (change)="convert(inp.value, $event.target.value)" [value]='46'>
+  <select class='form-control' (change)="convert(inp.value, $event.target)" [value]='46'>
       <option  *ngFor='let i of buttons' value='{{i}}'>{{i}}</option>
   </select>
 
